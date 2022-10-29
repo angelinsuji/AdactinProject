@@ -284,16 +284,16 @@ public class Step_Definition extends Base_Class{
 		String text9 = totalprice.getAttribute("value");
 	}
 
-	@When("User able to select the radio button in the search hotel page")
-	public void user_able_to_select_the_radio_button_in_the_search_hotel_page() {
+	@When("User able to select the radio button in the Select hotel page")
+	public void user_able_to_select_the_radio_button_in_the_Select_hotel_page() {
 	    // Write code here that turns the phrase above into concrete actions
 		Select_Hotel ssh = new Select_Hotel(driver);
 		WebElement radiobtn = ssh.getRadiobtn();
 		clickonWebelement(radiobtn);
 	}
 
-	@When("User able to click continue button in the search hotel page")
-	public void user_able_to_click_continue_button_in_the_search_hotel_page() {
+	@When("User able to click continue button in the Select hotel page")
+	public void user_able_to_click_continue_button_in_the_Select_hotel_page() {
 	    // Write code here that turns the phrase above into concrete actions
 		Select_Hotel ssh = new Select_Hotel(driver);
 	 WebElement continuee = ssh.getContin();

@@ -23,7 +23,7 @@ import cucumber.api.junit.Cucumber;
 		dryRun = false, 
 		monochrome = true)
 
-public class TestRunner_Adac {
+public class TestRunner {
 	
 	public static WebDriver driver = null;
 	

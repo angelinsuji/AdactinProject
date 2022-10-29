@@ -181,9 +181,9 @@ And User able to click the search Button
 
 Then Verify the total price excl GST is being calculated as price-per-night no-of-rooms no-of-days
 
-And User able to select the radio button in the search hotel page
+And User able to select the radio button in the Select hotel page
 
-And User able to click continue button in the search hotel page
+And User able to click continue button in the Select hotel page
 
 
 Scenario: To verify when pressed, logout button logs out from the application
